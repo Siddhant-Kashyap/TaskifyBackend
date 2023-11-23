@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "siddhant and rashid",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.2",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.1",
+    "otp-generator": "^4.0.1",
+    "socket.io": "^4.7.2",
+    "speakeasy": "^2.0.0",
+    "uuid": "^9.0.1",
+    "validator": "^13.11.0"
+  }
+}

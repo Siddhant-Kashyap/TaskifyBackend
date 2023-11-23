@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "email": "sk@gmail.com",
+      "dates": [
+        {
+          "date": "29/29/2021",
+          "completedTask": 11
+        },
+        {
+          "date": "12/29/2021",
+          "completedTask": 2
+        },
+        {
+          "date": "2023-11-14",
+          "completedTask": 3
+        },
+        {
+          "date": "2023-11-16",
+          "completedTask": 1
+        },
+        {
+          "date": "2023-11-17",
+          "completedTask": 2
+        },
+        {
+          "date": "2023-11-22",
+          "completedTask": 1
+        },
+        {
+          "date": "2023-11-23",
+          "completedTask": 2
+        }
+      ]
+    },
+    {
+      "email": "jd@gmail.com",
+      "dates": [
+        {
+          "date": "12/29/2021",
+          "completedTask": 2
+        },
+        {
+          "date": "11/29/2021",
+          "completedTask": 5
+        },
+        {
+          "date": "2023-11-20",
+          "completedTask": 0
+        }
+      ]
+    },
+    {
+      "email": "kashyapsiddhant01@gmail.com",
+      "dates": [
+        {
+          "date": "2023-11-20",
+          "completedTask": 0
+        }
+      ]
+    }
+  ]
+}
