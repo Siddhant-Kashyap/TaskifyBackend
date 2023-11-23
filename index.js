@@ -21,5 +21,5 @@ app.use("/productivity",productivityRoutes)
 
 
 app.listen(8081,()=>{
-    console.log(`Server is up ${PORT}`)
+    console.log(`Server is up `)
 })
