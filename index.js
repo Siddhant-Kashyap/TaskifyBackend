@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express();
-const dbConnect = require("./Config/dbConnection");
+// const dbConnect = require("./Config/dbConnection");
 const userRoutes = require("./Routes/userRoutes")
 const taskRoutes =require("./Routes/taskRoutes")
 const productivityRoutes = require("./Routes/productivityRoutes")
@@ -8,7 +8,7 @@ var cors = require('cors')
 
 // dbConnect();
 app.use(express.json());
-const PORT = 8080;
+process.env.PORT || 8081;
 
 app.use(cors())
 app.use(express.urlencoded({ extended: true }));
